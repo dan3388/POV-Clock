@@ -402,7 +402,7 @@
             <File>
               <FileName>font_clearsans.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\font_clearsans.c</FilePath>
+              <FilePath>.\font_clearsans.c</FilePath>
             </File>
             <File>
               <FileName>interrupts.cpp</FileName>
