@@ -8,6 +8,7 @@ sensor and time-over-UART telemetry.
 **Target board:** NXP **FRDM-KL16Z4** (Kinetis MKL16Z128xxx4, Cortex-M0+)
 **Toolchain:** Keil µVision (MDK-ARM), ARM Compiler 5, C++
 
+AI was used to generate the readme. No code was generated with AI
 ---
 
 ## How it works
