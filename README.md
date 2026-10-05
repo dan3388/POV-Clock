@@ -9,6 +9,7 @@ sensor and time-over-UART telemetry.
 **Toolchain:** Keil µVision (MDK-ARM), ARM Compiler 5, C++
 
 AI was used to generate the readme. No code was generated with AI
+
 ---
 
 ## How it works
