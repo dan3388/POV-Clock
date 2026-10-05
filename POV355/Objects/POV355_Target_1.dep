@@ -1,49 +1,0 @@
-Dependencies for Project 'POV355', Target 'Target_1': (DO NOT MODIFY !)
-CompilerVersion: 6220000::V6.22::ARMCLANG
-F (.\main.cpp)(0x67D9F239)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL16Z128xxx4 -D_RTE_-o ./objects/main.o -MMD)
-I (DLED.h)(0x67DA0772)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL16Z4.h)(0x677D7199)
-I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL16Z4.h)(0x677D7199)
-I (DRTC.h)(0x67D73EC1)
-I (UART.h)(0x67D9BAD3)
-I (DADC.h)(0x67D9FC58)
-F (.\DLED.cpp)(0x67D9F710)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL16Z128xxx4 -D_RTE_-o ./objects/dled.o -MMD)
-I (DLED.h)(0x67DA0772)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL16Z4.h)(0x677D7199)
-I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL16Z4.h)(0x677D7199)
-F (.\DLED.h)(0x67DA0772)()
-F (..\font_clearsans.c)(0x67CF57A0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL16Z128xxx4 -D_RTE_-o ./objects/font_clearsans.o -MMD)
-F (.\interrupts.cpp)(0x67D9F233)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL16Z128xxx4 -D_RTE_-o ./objects/interrupts.o -MMD)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL16Z4.h)(0x677D7199)
-I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL16Z4.h)(0x677D7199)
-I (DLED.h)(0x67DA0772)
-I (DRTC.h)(0x67D73EC1)
-I (UART.h)(0x67D9BAD3)
-I (DADC.h)(0x67D9FC58)
-F (.\DRTC.h)(0x67D73EC1)()
-F (.\DRTC.cpp)(0x67D9FFB2)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL16Z128xxx4 -D_RTE_-o ./objects/drtc.o -MMD)
-I (DRTC.h)(0x67D73EC1)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL16Z4.h)(0x677D7199)
-I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL16Z4.h)(0x677D7199)
-F (.\UART.cpp)(0x67D9D50E)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL16Z128xxx4 -D_RTE_-o ./objects/uart.o -MMD)
-I (UART.h)(0x67D9BAD3)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL16Z4.h)(0x677D7199)
-I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL16Z4.h)(0x677D7199)
-F (.\UART.h)(0x67D9BAD3)()
-F (.\DADC.cpp)(0x67D9FCFD)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL16Z128xxx4 -D_RTE_-o ./objects/dadc.o -MMD)
-I (DADC.h)(0x67D9FC58)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL16Z4.h)(0x677D7199)
-I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL16Z4.h)(0x677D7199)
-I (DLED.h)(0x67DA0772)
-F (.\DADC.h)(0x67D9FC58)()
-F (RTE/Device/MKL16Z128xxx4/startup_MKL16Z4.s)(0x67CF5DDE)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"MKL16Z128xxx4 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_mkl16z4.o)
-F (RTE/Device/MKL16Z128xxx4/system_MKL16Z4.c)(0x677D7199)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Packs/Keil/Kinetis_KLxx_DFP/1.15.1/Device/Include-D__UVISION_VERSION="541" -DMKL16Z128xxx4 -D_RTE_-o ./objects/system_mkl16z4.o -MMD)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\MKL16Z4.h)(0x677D7199)
-I (C:\Keil_v5\ARM\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
-I (C:\Keil_v5\ARM\Packs\Keil\Kinetis_KLxx_DFP\1.15.1\Device\Include\system_MKL16Z4.h)(0x677D7199)
